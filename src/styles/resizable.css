@@ -1,0 +1,15 @@
+.resizable-component {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+
+  position: relative;
+}
+
+.resize-handle {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 10px;
+  cursor: ew-resize;
+}

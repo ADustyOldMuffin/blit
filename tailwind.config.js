@@ -1,9 +1,5 @@
 module.exports = {
-  content: [
-    "./src/**/*.{html, js, ts, jsx, tsx}", 
-    "./src/**/*",
-    "./index.html"
-  ],
+  content: ['./src/**/*.{html, js, ts, jsx, tsx}', './src/**/*', './index.html'],
   theme: {
     fontSize: {
       sm: ['14px', '20px'],
@@ -16,7 +12,5 @@ module.exports = {
     },
     extend: {},
   },
-  plugins: [
-    require("@tailwindcss/forms")
-  ],
-}
+  plugins: [require('@tailwindcss/forms')],
+};
