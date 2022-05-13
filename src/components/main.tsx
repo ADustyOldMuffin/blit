@@ -1,6 +1,6 @@
 function Main() {
     return (
-        <div>
+        <div className="bg-black">
             <h1>Main</h1>
         </div>
     )
